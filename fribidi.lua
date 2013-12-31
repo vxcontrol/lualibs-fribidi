@@ -85,12 +85,13 @@ function M.log2vis_ucs4(str, len, debug_func)
 		v_to_l[i] = i
 	end
 
+	--[[
 	local x = 0
 	for i,offset in ipairs(line_offsets) do
 		local bidi_types
-		local
 		local status = C.fribidi_reorder_line(flags, bidi_types, len, 0, pbase_dir_out, levels, visual_str, v_to_l)
 	end
+	]]
 
 	for i=0,len-1 do
 		l_to_v[i] = -1
