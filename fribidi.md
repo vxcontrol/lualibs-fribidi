@@ -1,7 +1,6 @@
 ---
 project:  fribidi
 tagline:  Unicode bidirectional algorithm
-category: Text Processing
 ---
 
 ## `local fribidi = require'fribidi'`
