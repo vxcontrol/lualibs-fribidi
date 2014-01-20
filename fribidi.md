@@ -1,6 +1,6 @@
 ---
-project:  fribidi
-tagline:  Unicode bidirectional algorithm
+project: fribidi
+tagline: unicode BiDi algorithm
 ---
 
 ## `local fribidi = require'fribidi'`
