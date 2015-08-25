@@ -1,5 +1,4 @@
 ---
-project: fribidi
 tagline: unicode BiDi algorithm
 ---
 
