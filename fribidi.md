@@ -15,7 +15,7 @@ string, its length and a set of buffers with additional info.
 
   * `s` can be a string or a cdata buffer, in which case the output is also
   a cdata buffer
-  * charset can be: 'ucs4', 'utf-8', 'iso8859-6', 'iso8859-8', 'cp1255',
+  * `charset` can be: 'ucs4', 'utf-8', 'iso8859-6', 'iso8859-8', 'cp1255',
   'cp1256' (defaults to 'utf8')
   * `buffers` returned from the last call can be passed on to the next call
   to avoid reallocation.
